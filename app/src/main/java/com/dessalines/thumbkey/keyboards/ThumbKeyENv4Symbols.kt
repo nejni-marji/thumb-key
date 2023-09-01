@@ -27,7 +27,6 @@ val THUMBKEY_EN_V4_SYMBOLS = KeyboardC(
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
-                swipeType = SwipeNWay.FOUR_WAY_DIAGONAL,
                 swipes = mapOf(
                     SwipeDirection.BOTTOM_RIGHT to KeyC(
                         display = KeyDisplay.TextDisplay("w"),
@@ -36,6 +35,36 @@ val THUMBKEY_EN_V4_SYMBOLS = KeyboardC(
                     SwipeDirection.BOTTOM_LEFT to KeyC(
                         display = KeyDisplay.TextDisplay("$"),
                         action = KeyAction.CommitText("$"),
+                        color = ColorVariant.MUTED,
+                    ),
+                    SwipeDirection.BOTTOM to KeyC(
+                        display = KeyDisplay.TextDisplay("0"),
+                        action = KeyAction.CommitText("0"),
+                        color = ColorVariant.MUTED,
+                    ),
+                    SwipeDirection.LEFT to KeyC(
+                        display = KeyDisplay.TextDisplay("1"),
+                        action = KeyAction.CommitText("1"),
+                        color = ColorVariant.MUTED,
+                    ),
+                    SwipeDirection.TOP_LEFT to KeyC(
+                        display = KeyDisplay.TextDisplay("2"),
+                        action = KeyAction.CommitText("2"),
+                        color = ColorVariant.MUTED,
+                    ),
+                    SwipeDirection.TOP to KeyC(
+                        display = KeyDisplay.TextDisplay("3"),
+                        action = KeyAction.CommitText("3"),
+                        color = ColorVariant.MUTED,
+                    ),
+                    SwipeDirection.TOP_RIGHT to KeyC(
+                        display = KeyDisplay.TextDisplay("4"),
+                        action = KeyAction.CommitText("4"),
+                        color = ColorVariant.MUTED,
+                    ),
+                    SwipeDirection.RIGHT to KeyC(
+                        display = KeyDisplay.TextDisplay("5"),
+                        action = KeyAction.CommitText("5"),
                         color = ColorVariant.MUTED,
                     ),
                 ),
@@ -114,6 +143,26 @@ val THUMBKEY_EN_V4_SYMBOLS = KeyboardC(
                     SwipeDirection.BOTTOM to KeyC(
                         display = KeyDisplay.TextDisplay("="),
                         action = KeyAction.CommitText("="),
+                        color = ColorVariant.MUTED,
+                    ),
+                    SwipeDirection.TOP_LEFT to KeyC(
+                        display = KeyDisplay.TextDisplay("6"),
+                        action = KeyAction.CommitText("6"),
+                        color = ColorVariant.MUTED,
+                    ),
+                    SwipeDirection.TOP to KeyC(
+                        display = KeyDisplay.TextDisplay("7"),
+                        action = KeyAction.CommitText("7"),
+                        color = ColorVariant.MUTED,
+                    ),
+                    SwipeDirection.TOP_RIGHT to KeyC(
+                        display = KeyDisplay.TextDisplay("8"),
+                        action = KeyAction.CommitText("8"),
+                        color = ColorVariant.MUTED,
+                    ),
+                    SwipeDirection.RIGHT to KeyC(
+                        display = KeyDisplay.TextDisplay("9"),
+                        action = KeyAction.CommitText("9"),
                         color = ColorVariant.MUTED,
                     ),
                 ),
