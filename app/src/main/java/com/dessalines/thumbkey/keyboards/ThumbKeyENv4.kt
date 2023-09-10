@@ -41,7 +41,7 @@ val THUMBKEY_EN_V4_MAIN = KeyboardC(
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
-                swipeType = SwipeNWay.TWO_WAY_VERTICAL,
+                swipeType = SwipeNWay.FOUR_WAY_CROSS,
                 swipes = mapOf(
                     SwipeDirection.BOTTOM to KeyC(
                         display = KeyDisplay.TextDisplay("g"),
@@ -61,7 +61,6 @@ val THUMBKEY_EN_V4_MAIN = KeyboardC(
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
-                swipeType = SwipeNWay.FOUR_WAY_DIAGONAL,
                 swipes = mapOf(
                     SwipeDirection.BOTTOM_LEFT to KeyC(
                         display = KeyDisplay.TextDisplay("u"),
@@ -259,7 +258,7 @@ val THUMBKEY_EN_V4_SHIFTED = KeyboardC(
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
-                swipeType = SwipeNWay.TWO_WAY_VERTICAL,
+                swipeType = SwipeNWay.FOUR_WAY_CROSS,
                 swipes = mapOf(
                     SwipeDirection.BOTTOM to KeyC(
                         display = KeyDisplay.TextDisplay("G"),
@@ -279,7 +278,6 @@ val THUMBKEY_EN_V4_SHIFTED = KeyboardC(
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
-                swipeType = SwipeNWay.FOUR_WAY_DIAGONAL,
                 swipes = mapOf(
                     SwipeDirection.BOTTOM_LEFT to KeyC(
                         display = KeyDisplay.TextDisplay("U"),
