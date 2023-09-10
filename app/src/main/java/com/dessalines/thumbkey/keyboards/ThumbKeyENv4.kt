@@ -47,6 +47,11 @@ val THUMBKEY_EN_V4_MAIN = KeyboardC(
                         display = KeyDisplay.TextDisplay("g"),
                         action = KeyAction.CommitText("g"),
                     ),
+                    SwipeDirection.RIGHT to KeyC(
+                        display = KeyDisplay.TextDisplay("!"),
+                        action = KeyAction.CommitText("!"),
+                        color = ColorVariant.MUTED,
+                    ),
                 ),
             ),
             KeyItemC(
@@ -61,6 +66,11 @@ val THUMBKEY_EN_V4_MAIN = KeyboardC(
                     SwipeDirection.BOTTOM_LEFT to KeyC(
                         display = KeyDisplay.TextDisplay("u"),
                         action = KeyAction.CommitText("u"),
+                    ),
+                    SwipeDirection.LEFT to KeyC(
+                        display = KeyDisplay.TextDisplay("?"),
+                        action = KeyAction.CommitText("?"),
+                        color = ColorVariant.MUTED,
                     ),
                 ),
             ),
@@ -255,6 +265,11 @@ val THUMBKEY_EN_V4_SHIFTED = KeyboardC(
                         display = KeyDisplay.TextDisplay("G"),
                         action = KeyAction.CommitText("G"),
                     ),
+                    SwipeDirection.RIGHT to KeyC(
+                        display = KeyDisplay.TextDisplay("!"),
+                        action = KeyAction.CommitText("!"),
+                        color = ColorVariant.MUTED,
+                    ),
                 ),
             ),
             KeyItemC(
@@ -269,6 +284,11 @@ val THUMBKEY_EN_V4_SHIFTED = KeyboardC(
                     SwipeDirection.BOTTOM_LEFT to KeyC(
                         display = KeyDisplay.TextDisplay("U"),
                         action = KeyAction.CommitText("U"),
+                    ),
+                    SwipeDirection.RIGHT to KeyC(
+                        display = KeyDisplay.TextDisplay("?"),
+                        action = KeyAction.CommitText("?"),
+                        color = ColorVariant.MUTED,
                     ),
                 ),
             ),
