@@ -283,7 +283,7 @@ val THUMBKEY_EN_V4_SHIFTED = KeyboardC(
                         display = KeyDisplay.TextDisplay("U"),
                         action = KeyAction.CommitText("U"),
                     ),
-                    SwipeDirection.RIGHT to KeyC(
+                    SwipeDirection.LEFT to KeyC(
                         display = KeyDisplay.TextDisplay("?"),
                         action = KeyAction.CommitText("?"),
                         color = ColorVariant.MUTED,
