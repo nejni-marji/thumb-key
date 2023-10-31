@@ -16,8 +16,8 @@ val NUMERIC_KEYBOARD = KeyboardC(
         listOf(
             KeyItemC(
                 center = KeyC(
-                    display = KeyDisplay.TextDisplay("7"),
-                    action = KeyAction.CommitText("7"),
+                    display = KeyDisplay.TextDisplay("1"),
+                    action = KeyAction.CommitText("1"),
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
@@ -30,8 +30,8 @@ val NUMERIC_KEYBOARD = KeyboardC(
             ),
             KeyItemC(
                 center = KeyC(
-                    display = KeyDisplay.TextDisplay("8"),
-                    action = KeyAction.CommitText("8"),
+                    display = KeyDisplay.TextDisplay("2"),
+                    action = KeyAction.CommitText("2"),
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
@@ -68,8 +68,8 @@ val NUMERIC_KEYBOARD = KeyboardC(
             ),
             KeyItemC(
                 center = KeyC(
-                    display = KeyDisplay.TextDisplay("9"),
-                    action = KeyAction.CommitText("9"),
+                    display = KeyDisplay.TextDisplay("3"),
+                    action = KeyAction.CommitText("3"),
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
@@ -176,8 +176,8 @@ val NUMERIC_KEYBOARD = KeyboardC(
         listOf(
             KeyItemC(
                 center = KeyC(
-                    display = KeyDisplay.TextDisplay("1"),
-                    action = KeyAction.CommitText("1"),
+                    display = KeyDisplay.TextDisplay("7"),
+                    action = KeyAction.CommitText("7"),
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
@@ -198,8 +198,8 @@ val NUMERIC_KEYBOARD = KeyboardC(
             ),
             KeyItemC(
                 center = KeyC(
-                    display = KeyDisplay.TextDisplay("2"),
-                    action = KeyAction.CommitText("2"),
+                    display = KeyDisplay.TextDisplay("8"),
+                    action = KeyAction.CommitText("8"),
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
@@ -232,8 +232,8 @@ val NUMERIC_KEYBOARD = KeyboardC(
             ),
             KeyItemC(
                 center = KeyC(
-                    display = KeyDisplay.TextDisplay("3"),
-                    action = KeyAction.CommitText("3"),
+                    display = KeyDisplay.TextDisplay("9"),
+                    action = KeyAction.CommitText("9"),
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
