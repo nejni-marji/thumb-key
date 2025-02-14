@@ -964,12 +964,7 @@ fun performKeyAction(
                 }
 
                 EditorInfo.IME_ACTION_NONE -> {
-                    ime.currentInputConnection.sendKeyEvent(
-                        KeyEvent(
-                            KeyEvent.ACTION_DOWN,
-                            KeyEvent.KEYCODE_ENTER,
-                        ),
-                    )
+                    ime.currentInputConnection.commitText("\n", 1)
                 }
 
                 else -> {
